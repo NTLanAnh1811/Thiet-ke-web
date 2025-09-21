@@ -1,0 +1,36 @@
+html{
+    background-color: beige;
+}
+
+#aplyform {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#image{
+    justify-content: center;
+    gap: 20px;
+}
+
+#image .anh {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    color:brown
+}
+
+#table {
+    table-layout:unset;
+    -o-table-baseline:inherit;
+    display: flex;
+    justify-content: center;
+th, td {
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: aqua;
+}
